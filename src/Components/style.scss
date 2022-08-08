@@ -1,0 +1,163 @@
+$color_1: #fff;
+$color_2: black;
+$font-family_1: sans-serif;
+$background-color_1: antiquewhite;
+$background-color_2: rgb(231, 225, 246);
+$background-color_3: #fff;
+$background-color_4: rgb(201, 211, 211);
+$background-color_5: rgb(97, 23, 23);
+$background-color_6: black;
+$background-color_7: rgb(184, 12, 12);
+$background-color_8: aliceblue;
+$background-color_9: red;
+
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css";
+* {
+	font-family: $font-family_1;
+}
+.nav__bar {
+	box-shadow: rgb(61, 60, 60);
+	background-color: $background-color_1;
+	position: sticky;
+	top: 20px;
+	margin-bottom: 0px !important;
+}
+.card__description {
+	font-family: $font-family_1;
+	font-size: 10px;
+	border-radius: 8px;
+	height: 100px !important;
+	margin: 0 0 !important;
+	padding: 5px 5px;
+	background-color: $background-color_2;
+}
+.card__title {
+	justify-self: center;
+	font-family: $font-family_1;
+	height: 50px !important;
+	font-weight: bold !important;
+	margin-bottom: 0 !important;
+	font-size: 12px !important;
+	padding: 5px 5px;
+}
+.product__card {
+	height: 380px !important;
+	border: 0 !important;
+	margin: 0 !important;
+	gap: 10px;
+	cursor: pointer;
+}
+.footer__card {
+	margin-bottom: 0 !important;
+	padding: 5px 5px !important;
+	background-color: $background-color_3 !important;
+	border-top: none !important;
+}
+.buy__btn {
+	padding: 3px 6px !important;
+	font-size: 12px !important;
+}
+.price__info {
+	font-weight: bold;
+	font-size: 12px;
+	align-self: end !important;
+}
+.card__body {
+	padding: 0 0 !important;
+}
+.links {
+	font-family: $font-family_1;
+	font-size: 14px;
+}
+.cart__nav__container {
+	flex-direction: column;
+	flex-basis: auto;
+}
+.cart__icon {
+	padding: 5px 10px !important;
+	align-self: center;
+}
+.cart__count {
+	font-size: 12px;
+}
+footer {
+	background-color: $background-color_4;
+	font-size: 12px;
+	text-align: center;
+}
+.cart__action__icons {
+	color: $color_1;
+	background-color: $background-color_5;
+	padding: 2px 4px;
+	border-radius: 16px;
+}
+.cart__header {
+	background-color: $background-color_6;
+	color: $color_1;
+}
+.cart__title {
+	font-family: $font-family_1 !important;
+	font-size: 16px !important;
+	font-weight: bold !important;
+}
+.cart__footer {
+	flex-direction: column;
+	justify-content: start !important;
+}
+.cart__footer__text {
+	font-size: 12px !important;
+	justify-self: center !important;
+}
+.cart__footer__btn {
+	align-self: stretch !important;
+	font-size: 14px !important;
+}
+.cart__tag {
+	font-size: 12px;
+	margin: 20px;
+	font-weight: bold;
+	border: 1px solid black;
+	padding: 5px 5px;
+}
+.cart__icons {
+	padding: 4px 6px;
+	background-color: $background-color_7;
+	border-radius: 16px;
+	font-size: 10px;
+	cursor: pointer;
+}
+.cart__item__title {
+	font-size: 12px;
+	font-weight: bold;
+}
+.total__price {
+	align-self: end !important;
+}
+.cart__products__column {
+	background-color: $background-color_3;
+	padding: 5px 5px;
+}
+.cart__modal__body {
+	background-color: $background-color_8 !important;
+}
+.cart__noitem__text {
+	font-size: 16px;
+	align-self: center;
+}
+.cart__fav__text {
+	font-size: 14px;
+	align-self: center;
+}
+.logout__link {
+	border-radius: 18px !important;
+	width: 40px;
+	font-size: 8px !important;
+	font-weight: bold;
+	padding: 5px 5px !important;
+	background-color: $background-color_9 !important;
+	color: $color_2 !important;
+}
+.user__info {
+	font-family: $font-family_1;
+	font-size: 14px !important;
+}
