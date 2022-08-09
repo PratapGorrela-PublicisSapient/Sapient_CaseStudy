@@ -16,6 +16,7 @@ function RouterComp() {
             <ProductProvider>
             <App/>
             <Routes>
+                <Route path='/' element={<Home/>} />
                 <Route path='/home' element={<Home/>} />
                 <Route path='/products' element={<Product/>} />
                 <Route path='/signin' element={<Login/>} />
